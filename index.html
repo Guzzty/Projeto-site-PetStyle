@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetStyle - Roupas Geek para Animais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PetStyle</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo ao PetStyle!</h2>
+            <p>Roupas geek para o seu melhor amigo.</p>
+            <a href="#products" class="btn">Veja nossos produtos</a>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="product-card">
+                <img src="Imagens/Roupa Grifinória 1.webp" alt="Produto 1">
+                <h3>Roupa Grifinória</h3>
+                <p>Para os fãs da melhor casa de Hogwarts! Disponível em vários tamanhos.</p>
+                <span>R$ 89,90</span>
+            </div>
+            <div class="product-card">
+                <img src="Imagens/Roupa One Piece 1.jpg" alt="Produto 2">
+                <h3>Camisa de One Piece</h3>
+                <p>Proteja seu pet do sol com estilo dos piratas do chapéu de palha!</p>
+                <span>R$ 129,90</span>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos apaixonados por animais e cultura geek. Nossa missão é oferecer roupas que combinem o melhor dos dois mundos, trazendo estilo, segurança e conforto  para seus pets.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Para dúvidas ou sugestões, entre em contato conosco:</p>
+            <form action="souzamourahenrique23@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PetStyle. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
